@@ -1,0 +1,54 @@
+.conteiner-1 {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.conteiner-2 {
+		display: flex;
+	}
+	
+.conteiner-2 {
+	justify-content: space-around;
+	flex-wrap: wrap;
+	}
+	
+.conteiner-1 div, .conteiner-2 div {
+	padding: 18px;
+	border:1px  silver;
+}
+
+.box1 {
+	flex: 1;
+	order: 3;
+}
+
+.box2 {
+	flex: 3;
+	order: 1;
+}
+
+.box3 {
+	flex: 2;
+	order: 2;
+}
+
+.box {
+	flex-basis: 20%;
+}html, body {
+	background-color: green;
+}
+
+header{
+	flex: 0.5 0 auto;
+    background-color: red;
+}
+
+header, footer{
+	border: 1.5px  blue;
+	border-radius: 5px;
+}
+
+footer {
+    flex: 0 0 auto;
+	background-color: red;
+}
